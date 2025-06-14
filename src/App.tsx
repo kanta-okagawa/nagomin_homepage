@@ -27,7 +27,7 @@ function App() {
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">ご利用者様へ</h2>
         <p className="text-lg leading-relaxed px-6">
-          「安心してお願いできる」そんな声に応えるため、丁寧で思いやりのある介護を大切にしています。
+          ご利用者様とご家族の思いに寄り添いながら、「ここにお願いしてよかった」と感じていただけるよう、スタッフ一同誠実に努めてまいります。
         </p>
       </section>
 
