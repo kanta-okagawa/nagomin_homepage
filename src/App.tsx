@@ -27,16 +27,17 @@ function App() {
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">ご利用者様へ</h2>
         <p className="text-lg leading-relaxed px-6">
-          「安心してお願いできる」そんな声に応えるため、丁寧で思いやりのある介護を大切にしています。
+          ご利用者様とご家族の思いに寄り添いながら、「ここにお願いしてよかった」と感じていただけるよう、スタッフ一同誠実に努めてまいります。
         </p>
       </section>
 
       {/* 求職者へ */}
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">求職者様へ</h2>
-        <p className="text-lg leading-relaxed mb-6 px-6">
-          私たちと一緒に働きませんか？明るく前向きな仲間を募集しています。
-        </p>
+        <div className="text-lg leading-relaxed mb-6 px-6 space-y-2">
+          <p>私たちと一緒に働きませんか？</p>
+          <p>訪問介護への想いを共有できる、明るく前向きな仲間を募集しています。</p>
+        </div>
         <div className="text-center">
           <a
             href="mailto:nagomin0424@gmail.com"
