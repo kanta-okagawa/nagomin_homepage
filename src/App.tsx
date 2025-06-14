@@ -1,54 +1,72 @@
 function App() {
   return (
-    <div className="font-sans text-gray-800 bg-white min-h-screen">
-      <header className="text-center py-10">
-        <img src="/logo.png" alt="施設のロゴ" className="mx-auto w-32" />
-        <h1 className="text-3xl font-bold mt-4">なごみ介護ホーム</h1>
+    <div className="font-sans bg-pink-50 text-rose-800 min-h-screen">
+      {/* ヘッダー・ロゴ */}
+      <header className="py-10 text-center bg-yellow-300">
+        <img src="/logo.jpg" alt="なごみロゴ" className="w-32 mx-auto rounded-md shadow-md" />
+        <h1 className="text-3xl font-bold mt-4">ケアステーション なごみん</h1>
+        <p className="text-sm text-gray-700">あなたの笑顔と安心を支える介護サービス</p>
       </header>
 
-      <section className="text-center px-4 py-10">
-        <img src="/ceo.jpg" alt="代表の顔写真" className="w-40 h-40 rounded-full mx-auto object-cover" />
-        <p className="mt-4 font-semibold text-xl">代表からのメッセージ</p>
-        <p className="mt-2 text-gray-600 max-w-md mx-auto">
-          地域の皆さまに寄り添った、安心と信頼の介護サービスを提供しています。
+      {/* 代表メッセージ */}
+      <section className="max-w-screen-md mx-auto p-6 my-6 bg-white rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6">
+        <img src="/ceo.jpg" alt="代表写真" className="w-36 h-36 object-cover rounded-full" />
+        <div>
+          <h2 className="text-xl font-bold mb-2">代表からのメッセージ</h2>
+          <p>
+            地域の皆様に寄り添い、心をこめた介護サービスを提供しています。
+            なごやかな毎日のお手伝いを、スタッフ一同大切にしています。
+          </p>
+        </div>
+      </section>
+
+      {/* お客様へ */}
+      <section className="max-w-screen-md mx-auto p-6 my-6 bg-white rounded-xl shadow-md">
+        <h2 className="text-xl font-bold mb-2 text-center">ご利用者様へ</h2>
+        <p className="text-center">
+          「安心してお願いできる」そんな声に応えるため、丁寧で思いやりのある介護を大切にしています。
         </p>
       </section>
 
-      <section className="bg-gray-100 px-4 py-10">
-        <h2 className="text-2xl font-bold mb-4 text-center">お客様へのメッセージ</h2>
-        <p className="text-gray-700 max-w-xl mx-auto text-center">
-          ご利用者さまの笑顔と安心を第一に考えた、心のこもった介護をお届けしています。
+      {/* 求職者へ */}
+      <section className="max-w-screen-md mx-auto p-6 my-6 bg-white rounded-xl shadow-md">
+        <h2 className="text-xl font-bold mb-2 text-center">求職者様へ</h2>
+        <p className="text-center">
+          私たちと一緒に働きませんか？明るく前向きな仲間を募集しています。
         </p>
+        <div className="text-center mt-4">
+          <a
+            href="mailto:nagomi@example.com"
+            className="inline-block bg-rose-500 text-white py-2 px-6 rounded-full shadow hover:bg-rose-600 transition"
+          >
+            採用についてお問い合わせ
+          </a>
+        </div>
       </section>
 
-      <section className="px-4 py-10">
-        <h2 className="text-2xl font-bold mb-4 text-center">求職者様へ</h2>
-        <p className="text-gray-700 max-w-xl mx-auto text-center">
-          一緒に働きましょう！あたたかい職場で、あなたの力を活かしてください。
-        </p>
-      </section>
-
-      <section className="bg-gray-100 px-4 py-10">
-        <h2 className="text-xl font-bold mb-2">基本情報</h2>
+      {/* 基本情報 */}
+      <section className="max-w-screen-md mx-auto p-6 my-6 bg-white rounded-xl shadow-md text-sm">
+        <h2 className="text-lg font-bold mb-2">基本情報</h2>
         <p>〒651-0064 兵庫県神戸市中央区大日通2-4-9</p>
         <p>TEL・FAX：078-891-8333</p>
       </section>
 
-      <section className="px-4 py-10">
-        <h2 className="text-xl font-bold mb-2">事業情報</h2>
-        <p>事業内容</p>
-        <ul className="list-disc list-inside">
+      {/* 事業情報 */}
+      <section className="max-w-screen-md mx-auto p-6 my-6 bg-white rounded-xl shadow-md text-sm">
+        <h2 className="text-lg font-bold mb-2">事業情報</h2>
+        <ul className="list-disc pl-5 space-y-1">
           <li>介護サービス - 訪問介護</li>
-          <li>障害福祉サービス - 口腔内､鼻腔内､気管カニューレ内部の喀痰吸引、胃ろう・腸ろうによる経管栄養、経鼻経管栄養、居宅介護、重度訪問介護</li>
-          <li>自費サービス - 通院介助・院内介助</li>
+          <li>障害福祉サービス - 喀痰吸引、胃ろう、腸ろう、経鼻経管栄養、居宅介護、重度訪問介護</li>
+          <li>自費サービス - 通院・院内介助</li>
         </ul>
         <p className="mt-2">介護事業所番号：2875104529</p>
         <p>障害福祉サービス事業所番号：2815102534</p>
         <p>登録喀痰吸引事業所番号：282600001B</p>
       </section>
 
-      <footer className="text-center py-6 text-sm text-gray-500">
-        © 2025 なごみ介護ホーム
+      {/* フッター */}
+      <footer className="text-center py-6 text-xs text-gray-500">
+        © 2025 ケアステーションなごみん | なごやかな暮らしのお手伝い
       </footer>
     </div>
   );
