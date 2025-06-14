@@ -4,18 +4,22 @@ function App() {
       {/* ヘッダー・ロゴ */}
       <header className="py-12 text-center bg-yellow-200 bg-opacity-60">
         <img src="/images/company-photo.jpg" alt="なごみロゴ" className="w-40 mx-auto rounded-lg shadow-lg mb-6" />
-        <h1 className="text-5xl font-bold mt-6 text-gray-900">ケアステーション なごみん</h1>
-        <p className="text-lg text-gray-700 mt-4 px-6">あなたの笑顔と安心を支える介護サービス</p>
+        <h1 className="text-4xl font-bold mt-6 text-gray-900">ケアステーション なごみん</h1>
+        <p className="text-xl text-gray-700 mt-4 px-6">あなたの笑顔と安心を支える<br />訪問介護サービス</p>
       </header>
 
       {/* 代表メッセージ */}
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <img src="/images/ceo-photo.jpg" alt="代表写真" className="w-40 h-40 object-cover rounded-full mx-auto mb-6 shadow-md" />
         <h2 className="text-3xl font-bold mb-6 text-gray-900">代表からのメッセージ</h2>
-        <p className="text-lg leading-relaxed mb-6 px-4">
-          地域の皆様に寄り添い、心をこめた介護サービスを提供しています。<br />
-          なごやかな毎日のお手伝いを、スタッフ一同大切にしています。
-        </p>
+        <div className="text-lg leading-relaxed mb-6 px-4 space-y-4">
+          <p>このたびは、当事業所のホームページをご覧いただき、誠にありがとうございます。</p>
+          <p>私たちは、「住み慣れたご自宅で安心して、自分らしく暮らし続けられるように」を理念とし、訪問介護サービスを通じて地域の皆様の暮らしを支えてまいります。</p>
+          <p>当事業所では、身体介護や生活援助に加え、医療的ケアにも対応できる体制を整えております。たとえば、たんの吸引や経管栄養といった特定行為が必要なご利用者様にも、看護師や研修修了スタッフが連携して、安心してご利用いただけるサービスを提供いたします。</p>
+          <p>何かお困りごとがございましたら、どうぞお気軽にご相談ください。</p>
+          <p className="font-semibold">ご利用者様向けメッセージ</p>
+          <p>ご利用者様とご家族の思いに寄り添いながら、「ここにお願いしてよかった」と感じていただけるよう、スタッフ一同誠実に努めてまいります。</p>
+        </div>
         <p className="text-xl font-semibold text-gray-800">代表 岡川 善恵</p>
       </section>
 
@@ -35,7 +39,7 @@ function App() {
         </p>
         <div className="text-center">
           <a
-            href="mailto:nagomi@example.com"
+            href="mailto:nagomin0424@gmail.com"
             className="inline-block bg-yellow-500 text-white py-3 px-8 rounded-full shadow-lg hover:bg-yellow-600 transition text-lg font-semibold"
           >
             採用についてお問い合わせ
