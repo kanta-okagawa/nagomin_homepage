@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .font-comic-sans {
+    font-family: 'Klee One', 'Comic Sans MS', cursive, sans-serif;
+  }
+}
