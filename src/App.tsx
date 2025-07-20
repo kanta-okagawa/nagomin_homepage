@@ -29,6 +29,11 @@ function App() {
         </p>
       </section>
 
+      {/* 社員の雰囲気 */}
+      <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
+        <img src="/images/beauty_20250614125415.jpg" alt="社員の雰囲気" className="w-full max-w-lg mx-auto rounded-lg shadow-md mb-4" />
+      </section>
+
       {/* 求職者へ */}
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">求職者様へ</h2>
@@ -63,10 +68,10 @@ function App() {
           <li>• 障害福祉サービス - 喀痰吸引、胃ろう、腸ろう、経鼻経管栄養、居宅介護、重度訪問介護</li>
           <li>• 自費サービス - 通院・院内介助</li>
         </ul>
-        <div className="mt-6 space-y-2 text-base text-gray-700">
+        <div className="mt-6 space-y-2 text-lg text-gray-700">
           <p>介護事業所番号：2875104529</p>
           <p>障害福祉サービス事業所番号：2815102534</p>
-          <p>登録喀痰吸引事業所番号：282600001B</p>
+          <p>登録特定行為事業者登録番号：282600014A</p>
         </div>
       </section>
 

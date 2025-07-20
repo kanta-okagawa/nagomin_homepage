@@ -421,7 +421,7 @@ export default App;
   <div className="mt-6 space-y-2 text-base text-gray-700">
     <p>介護事業所番号：2875104529</p>
     <p>障害福祉サービス事業所番号：2815102534</p>
-    <p>登録喀痰吸引事業所番号：282600001B</p>
+    <p>登録特定行為事業者登録番号：282600014A</p>
   </div>
 </section>
 ```
