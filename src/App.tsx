@@ -29,11 +29,6 @@ function App() {
         </p>
       </section>
 
-      {/* 社員の雰囲気 */}
-      <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
-        <img src="/images/beauty_20250614125415.jpg" alt="社員の雰囲気" className="w-full max-w-lg mx-auto rounded-lg shadow-md mb-4" />
-      </section>
-
       {/* 求職者へ */}
       <section className="max-w-screen-md mx-auto p-8 my-8 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-900">求職者様へ</h2>
@@ -41,13 +36,16 @@ function App() {
           <p>私たちと一緒に働きませんか？</p>
           <p>訪問介護への想いを共有できる、明るく前向きな仲間を募集しています。</p>
         </div>
-        <div className="text-center">
+        <div className="text-center mb-6">
           <a
             href="mailto:nagomin0424@gmail.com"
             className="inline-block bg-yellow-500 text-white py-3 px-8 rounded-full shadow-lg hover:bg-yellow-600 transition text-lg font-semibold"
           >
             採用についてお問い合わせ
           </a>
+        </div>
+        <div className="mt-6">
+          <img src="/images/beauty_20250614125415.jpg" alt="社員の雰囲気" className="w-64 mx-auto rounded-lg shadow-md" />
         </div>
       </section>
 
